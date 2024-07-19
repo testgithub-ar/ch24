@@ -1,0 +1,7 @@
+class Bomb
+{
+public static void main(string[]args)
+{
+system.out.println("Have a Good Day")
+}
+}

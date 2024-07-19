@@ -1,0 +1,8 @@
+class Fork
+{
+	class Maggi
+	{
+		
+	}
+	
+}

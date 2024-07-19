@@ -1,0 +1,90 @@
+ 1. c)char[]
+ 2. b)
+ 3.b)main()
+ 4.a)String
+ 5.b)5
+ 6.a)p
+ 7.d)18
+ 8.c)96
+ 9.c)63
+10. JDK is a Java Development kit ,verified by the Oracle with version 8.It basically includes Tools and JRE.JDK is used to write the program.
+    JRE is Java run time environment ,it basically includes tols and jvm .It is used to run the program and it us platform dependent.
+    JVM is a is Java Virtual Machine which is used to execute the program .It looks for the main method.
+
+11.jvm executes the program.
+   It converts the program into byte code.
+   when it is executed the heap memory is created
+   
+12.Java is platform independent because we write code once and run on any platform
+
+13. Class is a set of object which shares common charactoristics and attributes.It is also a keywor used to define the object.
+
+14.Keyword are some charactoristics in java ,which re used to store some data.
+    ex:public,static,if,else,while,do etc
+15. variable is a name refered to a datatype ,which stores adress or location of a value.
+
+16. Local Variable is a variable declared inside a method of a body.
+
+17. Data types in java are used to store the information.
+    There are basically two types od data types,
+     1. Premitive:which is inbuilt,there are 8 types
+        byte,short,int,long,float,double,boolean and char.
+     2.Non premitive which incudes String and arrays.
+
+    Ex: string,int etc
+
+18. main method in java is a method with which we execute the program,jvm is always looking for main method to execute the program.
+    the syntax to write a main method is :
+class Win{
+}
+    public static void main(String[] args)
+{
+}
+In the above syntax public is a Access Specifier,which are four types 1. public 2.private 3. protected 4. package default.
+static is keyword or non access specifier
+void is a return type
+main is a name of a method
+string is a parameterand args are the refernces passing to parameters.
+
+19. static method is a method used to declare a method,in which we can invoke another method.
+    we can invoke only static method inside the static method, to inoke non static method we have to use instances
+    The syntax for static method is :
+class Cricket{
+}
+    public static void hit()
+{
+
+}
+
+20. Program to check the number is even or odd.
+
+  class Android
+{
+public static void text( int number)
+{
+System.out.println("running text in android");
+System.out.println("number"+number);
+
+if(number%2==0)
+{
+System.out.println("the given number is even");
+}
+else
+{
+System.out.println("the given number is odd");
+}
+
+}
+ public static void main(String[] args)
+{
+System.out.println("running main in android");
+Android.text(5);
+
+}
+
+}
+
+
+
+
+ 
