@@ -4,7 +4,7 @@ class RocketRunner
 		Rocket rocket=new Rocket();
 		String country=rocket.country;
 		rocket.country="India";
-		System.out.println("brand:"+rocket.country);
+		System.out.println("country:"+rocket.country);
 		
 		Rocket rocket1=new Rocket(3800);
 		System.out.println("speed:"+rocket1.speed);
@@ -15,7 +15,7 @@ class RocketRunner
 		System.out.println("fuelCapacity:"+rocket2.fuelCapacity);
 		
 		rocket.country="USA";
-		System.out.println("brand:"+rocket.country);
+		System.out.println("country:"+rocket.country);
 		
 		Rocket rocket3=new Rocket(2400);
 		System.out.println("speed:"+rocket3.speed);
@@ -26,7 +26,7 @@ class RocketRunner
 		System.out.println("fuelCapacity:"+rocket.fuelCapacity);
 		
 		rocket.country="Japan";
-		System.out.println("brand:"+rocket.country);
+		System.out.println("country:"+rocket.country);
 		
 		Rocket rocket5=new Rocket(2800);
 		System.out.println("speed:"+rocket5.speed);
